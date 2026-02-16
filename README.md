@@ -61,9 +61,9 @@ Group22_Color_Processing_with_RGB_and_HSV/
 │       ├── beans.tiff                 # HSV segmentation testing
 │       ├── foggy.jpg                  # Enhancement demonstrations
 │       └── fruits.jpg                 # Additional test image
-|    └── under_water/                     # This was used in the under_water.ipynb [dataset link](https://drive.google.com/drive/folders/19ScbxkyXWpW4Hkf_Kv_z8MpTif_pepBo?usp=sharing)
+|    └── under_water/                     # This was used in the under_water.ipynb 
 │       └── *.png
-|    └── colorization/                     # This was used in the under_water.ipynb [dataset link](https://drive.google.com/drive/folders/1QI-hzXQrl0YVfq0eSXRXkZRh9KasSyvo?usp=sharing)
+|    └── colorization/                     # This was used in the under_water.ipynb 
 │       └── *.jpg
 |
 │
@@ -73,6 +73,13 @@ Group22_Color_Processing_with_RGB_and_HSV/
 └── README.md                          # This file
 ```
 
+
+---
+
+### External Datasets
+The following external datasets were used for validation in the tests/ notebooks:
+* Underwater Dataset: [Google Drive Link](https://drive.google.com/drive/folders/19ScbxkyXWpW4Hkf_Kv_z8MpTif_pepBo?usp=sharing)
+* Colorization Dataset: [Google Drive Link](https://drive.google.com/drive/folders/1QI-hzXQrl0YVfq0eSXRXkZRh9KasSyvo?usp=sharing)
 
 ---
 
