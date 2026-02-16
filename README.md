@@ -39,13 +39,17 @@ This project provides rigorous experimental analysis of color image processing, 
 Group22_Color_Processing_with_RGB_and_HSV/
 │
 ├── notebooks/                          # Jupyter notebooks
-│   ├── main_project.ipynb             # 📘 Final comprehensive deliverable (58 cells)
+│   ├── main_project.ipynb             # 📘 Final comprehensive deliverable 
 │   └── explorations/                   # Individual experiment notebooks
 │       ├── rgb_color_model_and_histograms.ipynb
 │       ├── hsv_conversion_and_segmentation.ipynb
 │       ├── image_enhancement_and_applications.ipynb
 │       └── color_space_conversions_analysis.ipynb
-│
+|   └── tests/           # To check the our colour processing techniques on other datasets  
+│       ├── colorization.ipynb
+|       └── under_water.ipynb 
+|
+|
 ├── src/                                # Python utility modules
 │   ├── color_utils.py                 # Color space conversions (RGB↔HSV, RGB↔CMY)
 │   ├── visualization.py               # Image display and comparison functions
@@ -57,12 +61,25 @@ Group22_Color_Processing_with_RGB_and_HSV/
 │       ├── beans.tiff                 # HSV segmentation testing
 │       ├── foggy.jpg                  # Enhancement demonstrations
 │       └── fruits.jpg                 # Additional test image
+|    └── under_water/                     # This was used in the under_water.ipynb 
+│       └── *.png
+|    └── colorization/                     # This was used in the under_water.ipynb 
+│       └── *.jpg
+|
 │
 ├── .venv/                              # Virtual environment (not tracked)
 ├── .gitignore                          # Git ignore rules
 ├── requirements.txt                    # Python dependencies
 └── README.md                          # This file
 ```
+
+
+---
+
+### External Datasets
+The following external datasets were used for validation in the tests/ notebooks:
+* Underwater Dataset: [Google Drive Link](https://drive.google.com/drive/folders/19ScbxkyXWpW4Hkf_Kv_z8MpTif_pepBo?usp=sharing)
+* Colorization Dataset: [Google Drive Link](https://drive.google.com/drive/folders/1QI-hzXQrl0YVfq0eSXRXkZRh9KasSyvo?usp=sharing)
 
 ---
 
