@@ -1,0 +1,23 @@
+numpy
+matplotlib
+opencv-python
+scikit-image
+jupyter
+notebook
+Pillow
+seaborn
+# Core Image Processing
+opencv-python
+numpy
+
+# Visualization & Data
+matplotlib
+pandas
+
+# Notebook & Dev Tools
+jupyter
+nbstripout
+ipykernel
+
+# Optional: Performance & Math
+scipy
